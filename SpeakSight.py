@@ -11,8 +11,7 @@ try:
 except Exception as e:
     print(f"❌ Failed to load YOLO model: {e}")
     model = None
-
-
+    
 engine = pyttsx3.init()
 
 engine.setProperty('rate', 150)  # Slower speech
@@ -127,3 +126,4 @@ if __name__ == '__main__':
     root = tk.Tk()
     app = YOLOApp(root)
     root.mainloop()
+
