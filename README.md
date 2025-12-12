@@ -1,20 +1,21 @@
-Python OpenCV Projects: SpeakSight & Depth Detection
+**Python OpenCV Projects: SpeakSight & Depth Detection**
 
 This repository contains three Python projects leveraging AI and computer vision to assist with image/object description and depth estimation. The solutions are designed to be beneficial for accessibility, robotics, and general computer vision experimentation.
 
-Project List
-  SpeakSight.py
-  depth.py
-  distance.py
+**Project List**
+ * SpeakSight.py
+ * depth.py
+ * distance.py
 
-SpeakSight.py
+**SpeakSight.py**
 
 Description:
   SpeakSight is an AI-powered tool that helps visually impaired users by detecting objects in images and generating spoken descriptions.
 
   Accepts an input image, analyzes it, and generates a descriptive summary.
   The description is delivered as speech for accessibility.
-Tech Stack:
+  
+**Tech Stack:**
   Python
   YOLOv8 (Ultralytics)
   Tkinter
@@ -23,7 +24,7 @@ Tech Stack:
   random
   NumPy
     
-DEPTH DETECTION
+**DEPTH DETECTION**
 
 DEPTH DETECTION is the combined system comprising depth.py and distance.py.
 
@@ -34,14 +35,14 @@ depth.py
 distance.py
   Detects objects using YOLOv8 and calculates their distance from the webcam, employing depth estimation algorithms based on focal length.
   Useful for collision avoidance and robotic navigation.
-
-Tech Stack:
+**
+Tech Stack:**
   Python
   OpenCV
   YOLOv8 (Ultralytics)
   NumPy
 
-Run individual projects:
+**Run individual projects:**
 
 SpeakSight:
 
@@ -54,7 +55,7 @@ Depth detection:
     python depth.py
     python distance.py webcam
 
-Usage
+**Usage**
 
   SpeakSight.py:
     Upload or provide an image input, then receive and hear the generated description.
